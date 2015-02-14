@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Checkout", "Checkout.csproj", "{35C4AC34-080A-4B83-81BF-21E6BC3B8EC0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{7E930C11-339E-40E1-8D40-938E0A1F47D0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Checkout.test", "..\test\soa-template.test\Checkout.test.csproj", "{2A0D4BF4-77D6-470C-8855-C7B7F8B9B148}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{35C4AC34-080A-4B83-81BF-21E6BC3B8EC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35C4AC34-080A-4B83-81BF-21E6BC3B8EC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35C4AC34-080A-4B83-81BF-21E6BC3B8EC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35C4AC34-080A-4B83-81BF-21E6BC3B8EC0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A0D4BF4-77D6-470C-8855-C7B7F8B9B148}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A0D4BF4-77D6-470C-8855-C7B7F8B9B148}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A0D4BF4-77D6-470C-8855-C7B7F8B9B148}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A0D4BF4-77D6-470C-8855-C7B7F8B9B148}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2A0D4BF4-77D6-470C-8855-C7B7F8B9B148} = {7E930C11-339E-40E1-8D40-938E0A1F47D0}
+	EndGlobalSection
+EndGlobal
